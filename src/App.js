@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import cn from 'classnames';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -10,12 +10,12 @@ const keyUp = 38;
 class App extends React.Component {
   
   constructor() {
-    const  animals = ["Слон", "Жираф", "Лошадь", "Енот", "Заяц", "Удав"];
+    const  animals = ['Слон', 'Жираф', 'Лошадь', 'Енот', 'Заяц', 'Удав'];
     super();
     this.state = {
       animals,
       filteredAnimals: animals,
-      input: "",
+      input: '',
       showList: true,
       selectedIndex: false,
       maxSelectedIndex: animals.length,
